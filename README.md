@@ -1,6 +1,6 @@
 # 📝 Task 1 - Todo App
 
-This is a simple Task Manager built with **HTML, CSS, and JavaScript**.
+This is a simple Todo App built with **HTML, CSS, and JavaScript**.
 
 <img width="1291" height="624" alt="Main UI" src="https://github.com/user-attachments/assets/972c3809-0b7b-4071-b893-33fc692d1125" />
 

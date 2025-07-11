@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: #00539F;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    max-width: 600px;
+    margin: 40px auto;
+    background-color: #FF9500;
+    padding: 30px 20px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+h1 {
+    font-size: 48px;
+    text-align: center;
+    color: #00539F;
+    text-shadow: 3px 3px 1px black;
+}
+h3 {
+    font-size: 20px;
+    color: #46484b;
+}
+
+form {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    justify-content: center;
+}
+
+form input {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #00539F;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #00539F;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+form button:hover {
+    opacity: 0.9;
+}
+
+.searchBox {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+#searchInput {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #00539F;
+    border-radius: 5px;
+}
+
+#taskList {
+    width: 100%;
+    list-style: none;
+    margin-top: 20px;
+    padding: 0;
+}
+
+#taskList li {
+    background-color: white;
+    margin-bottom: 10px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-left: 6px solid #00539F;
+}
+
+#taskList li.complated span {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.actions button {
+    margin-left: 10px;
+    padding: 6px 12px;
+    font-size: 14px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.actions .edit {
+    background-color: #FFC107;
+    color: black;
+}
+
+.actions .delete {
+    background-color: #D32F2F;
+    color: white;
+}

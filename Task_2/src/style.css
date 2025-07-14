@@ -1,0 +1,167 @@
+/* Reset margins and ensure consistent sizing */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling for a clean, centered layout */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* Container styling with a card-like effect */
+.container {
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 450px;
+  transition: transform 0.2s;
+}
+
+.container:hover {
+  transform: translateY(-5px);
+}
+
+/* Heading styling */
+h1 {
+  text-align: center;
+  color: #2c3e50;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+h3 {
+  color: #5b758f;
+  margin: 15px 0 10px;
+  font-size: 1.0rem;
+  font-weight: 500;
+}
+
+/* Form styling */
+#taskForm {
+  display: flex;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+/* Input styling */
+#taskInput {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #767879;
+  border-radius: 6px;
+  font-size: 1rem;
+  outline: none;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+#taskInput:focus {
+  border-color: #3498db;
+  box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+}
+
+/* Button base styling */
+button {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+/* Edit button styling */
+.add {
+  background-color: #06b34e;
+}
+.add:hover {
+  background-color: #29a05b;
+}
+.edit {
+  background-color: #c1cc2e;
+}
+
+.edit:hover {
+  background-color: #aeac27;
+  transform: scale(1.05);
+}
+
+.edit img {
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+}
+
+/* Delete button styling */
+.delete {
+  background-color: #e74c3c;
+  margin-left: 8px;
+}
+
+.delete:hover {
+  background-color: #c0392b;
+  transform: scale(1.05);
+}
+
+.delete img {
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+}
+
+/* Task list styling */
+#taskList {
+  list-style: none;
+}
+
+#taskList li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  background-color: #d5d7d8;
+  border-radius: 6px;
+  margin-bottom: 8px;
+  transition: background-color 0.3s;
+}
+
+#taskList li:hover {
+  background-color: #ecf0f1;
+}
+
+#taskList span {
+  flex: 1;
+  padding: 5px;
+  color: #2c3e50;
+  font-size: 1rem;
+}
+
+#taskList span:focus {
+  outline: 2px solid #3498db;
+  border-radius: 4px;
+}
+
+/* Responsive design */
+@media (max-width: 400px) {
+  .container {
+    padding: 15px;
+  }
+
+  #taskForm {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  button {
+    width: 100%;
+  }
+}

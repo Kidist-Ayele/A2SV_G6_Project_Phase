@@ -1,0 +1,8 @@
+# Exclude compiled JS output
+dist/
+
+# Node.js dependencies
+node_modules/
+
+# System junk
+.DS_Store

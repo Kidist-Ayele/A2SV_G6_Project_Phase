@@ -1,4 +1,4 @@
-# 📝 Task 4 - Todo App (React + TypeScript)
+# 📝 Todo App (React + TypeScript)
 
 A simple and modern Todo List App built using **React**, **TypeScript**, **HTML**, and **CSS** via **Vite**. It includes this core features:
 

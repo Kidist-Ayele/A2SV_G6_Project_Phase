@@ -41,3 +41,30 @@ A simple web-based Todo List App built with **TypeScript**, **HTML**, and **CSS*
 ❌ **Deleting a Task**
 
 <img width="680" height="480" alt="image" src="https://github.com/user-attachments/assets/ddb41fe1-ebc8-4ed5-88ca-3776bc92fcfa" />
+
+## 🚀 How to Run the App
+Follow these steps to run the TypeScript-based Todo App locally:
+
+- **Clone the repository**
+```
+git clone https://github.com/Kidist-Ayele/A2SV_G6_Project_Phase.git
+
+```
+- **Navigate to the project directory**
+```
+cd A2SV_G6_Project_Phase/Task_2
+
+```
+- **Compile TypeScript to JavaScript**
+If you haven't already compiled the TypeScript file, run:
+```
+tsc
+```
+⚠️ Make sure you have TypeScript installed globally:
+`npm install -g typescript`
+
+- **Open the app in your browser**
+
+    - Open `public/index.html` using your browser (double-click or right-click → “Open with”).
+
+_This file will load the compiled JavaScript from `dist/todo.js`._

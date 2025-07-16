@@ -1,0 +1,48 @@
+# Node modules
+node_modules/
+
+# Build output
+dist/
+build/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Testing coverage
+coverage/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# System files
+.DS_Store
+Thumbs.db
+
+# VSCode settings (optional)
+.vscode/
+
+# Optional: macOS folder attributes
+.AppleDouble
+.LSOverride
+
+# Optional: IDEs/editors
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Optional: compiled JS files (if you directly compile from TS)
+*.js
+*.jsx
+*.map

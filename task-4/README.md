@@ -58,6 +58,11 @@ A simple and modern Todo List App built using **React**, **TypeScript**, **HTML*
 
 <img width="559" height="509" alt="image" src="https://github.com/user-attachments/assets/b35f9c1f-0467-4fab-adeb-da270551edfe" />
 
+☑️ **Mark Task as Complete**
+
+<img width="578" height="589" alt="image" src="https://github.com/user-attachments/assets/2474590d-78f5-4a7e-b31a-baf5f2a038ad" />
+
+
 ---
 
 ## 🚀 How to Run the App

@@ -8,7 +8,7 @@ interface Todo {
   done: boolean;
 }
 
-let nextId = 1;
+let nextId = 2;
 const initialTodos: Todo[] = [{ id: 0, title: "Complete Task 4", done: true }, { id: 1, title: "Learn CSS", done: false }];
 
 function ToDo() {

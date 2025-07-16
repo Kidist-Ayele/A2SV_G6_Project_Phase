@@ -22,3 +22,25 @@ This is a simple Task Manager built with **HTML, CSS, and JavaScript**.
 
 - **Search functionality**
   <img width="883" height="579" alt="Search Task" src="https://github.com/user-attachments/assets/15d4c151-a301-497f-93a1-fcd4e4d47c65" />
+
+  ---
+
+  ## 🚀 How to Run the App
+You can run this Todo App locally in a few simple steps:
+
+- **Clone the repository**
+```
+git clone https://github.com/Kidist-Ayele/A2SV_G6_Project_Phase.git
+
+```
+- **Navigate into the project folder**
+```
+cd A2SV_G6_Project_Phase/Task_1
+```
+- **Open the app in your browser**
+
+  - Locate the `index.html` file inside the folder.
+
+  - Open it by double-clicking it, or right-click and choose “Open with” → your preferred browser.
+
+_No server setup or installation required — it runs purely on the browser!_

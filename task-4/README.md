@@ -42,25 +42,26 @@ A simple and modern Todo List App built using **React**, **TypeScript**, **HTML*
 
 🧾 **Main UI**
 
-<img width="671" height="551" alt="image" src="https://github.com/user-attachments/assets/344f0c1d-c8c3-42c4-87ab-085ca24e12a0" />
+<img width="748" height="581" alt="image" src="https://github.com/user-attachments/assets/83090beb-6354-4d27-b039-ed6cb11c61a7" />
+
 
 ➕ **Add Task**
 
-<img width="515" height="590" alt="image" src="https://github.com/user-attachments/assets/8a91e8e5-49bf-4ee6-aa0b-f038ea181513" />
+<img width="768" height="613" alt="image" src="https://github.com/user-attachments/assets/f7961581-bb72-4458-b39f-359b38fbb20a" />
 
 
 ✏️ **Edit Task**
 
-<img width="822" height="634" alt="image" src="https://github.com/user-attachments/assets/6954076b-f304-44cf-9604-734d514b084a" />
+<img width="720" height="618" alt="image" src="https://github.com/user-attachments/assets/650d0720-22f4-45f9-9e14-394ff28feb89" />
 
 
 ❌ **Delete Task**
 
-<img width="559" height="509" alt="image" src="https://github.com/user-attachments/assets/b35f9c1f-0467-4fab-adeb-da270551edfe" />
+<img width="694" height="578" alt="image" src="https://github.com/user-attachments/assets/c868654c-c9dc-489f-980c-d7e71b4216f1" />
 
 ☑️ **Mark Task as Complete**
 
-<img width="578" height="589" alt="image" src="https://github.com/user-attachments/assets/2474590d-78f5-4a7e-b31a-baf5f2a038ad" />
+<img width="713" height="620" alt="image" src="https://github.com/user-attachments/assets/9ad2296f-08c9-4206-9c47-a67ad2bb0ce8" />
 
 
 ---

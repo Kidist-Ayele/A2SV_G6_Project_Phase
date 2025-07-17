@@ -36,6 +36,15 @@ export const ContactForm = () => {
                         message: 'Username is required.',
                     },
 
+                     minLength: {
+                        value: 3,
+                        message: 'Username must be at least 3 characters long.',
+                    },
+                    maxLength: {
+                        value: 20,
+                        message: 'Username cannot exceed 20 characters.',
+                    }
+
                 })} />
 
             <p className = "error">{errors.username?.message}</p>
@@ -49,6 +58,11 @@ export const ContactForm = () => {
                 placeholder='Enter email' 
 
                 {...register("email", {
+
+                    required: {
+                        value: true,
+                        message: 'Email is required.',
+                    },
                 
                     pattern:{
                         value: /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/, 
@@ -101,7 +115,7 @@ export const ContactForm = () => {
             }
             )}/>
             
-            <p className = "error">{errors.username?.message}</p>
+            <p className = "error">{errors.message?.message}</p>
 
             </div>
 

@@ -30,6 +30,24 @@ body {
   min-height: 100vh;
 }
 
+input,
+textarea {
+  background-color: #d8d9db !important;
+  color: #213547 !important;
+  caret-color: #000;
+  
+}
+
+input:-webkit-autofill,
+textarea:-webkit-autofill {
+  -webkit-text-fill-color: #213547 !important;
+  background-color: #fff !important;
+  transition: background-color 0s;
+}
+
+
+
+
 h1 {
   font-size: 3.2em;
   line-height: 1.1;

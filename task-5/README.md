@@ -14,25 +14,27 @@ A modern **Contact Form** built with **React**, **TypeScript**, **HTML**, and **
 
 📥 **Form Inputs**
 
-<img width="780" height="620" alt="image" src="https://github.com/user-attachments/assets/9ae03a71-2aa5-4720-883d-879056b9617e" />
+<img width="697" height="623" alt="image" src="https://github.com/user-attachments/assets/8ea59d62-66d1-4519-aec4-842725bbe4d5" />
+
 
 ❗ **Validation Errors**
 
-- All fields requierd
+- All input fields requierd
   
-  <img width="661" height="612" alt="image" src="https://github.com/user-attachments/assets/d4cec05b-1835-42dd-90a1-f64ace0b9dfc" />
+  <img width="735" height="634" alt="image" src="https://github.com/user-attachments/assets/d389a025-360e-43a4-b5ce-f8bec2822a93" />
 
 - Admins email check
   
-  <img width="708" height="606" alt="image" src="https://github.com/user-attachments/assets/9715fec9-8266-41c7-8e7c-eb4524a20367" />
+  <img width="698" height="589" alt="image" src="https://github.com/user-attachments/assets/1a96cd59-2185-4606-8650-e01c8953278e" />
 
 - Correct submission
   
-  <img width="891" height="602" alt="image" src="https://github.com/user-attachments/assets/5a0deade-d4f7-4083-b63d-3fe055d2fd88" />
+  <img width="701" height="596" alt="image" src="https://github.com/user-attachments/assets/cba70af2-b684-45c3-ae56-578474e6fdb2" />
 
 - Long username, long message and bad domain email check
   
-  <img width="743" height="618" alt="image" src="https://github.com/user-attachments/assets/45ecd5f2-4eeb-4f2b-a605-0a40f3054e1a" />
+  <img width="685" height="617" alt="image" src="https://github.com/user-attachments/assets/8881c0f7-9661-4ad4-8790-133222ad1097" />
+
  
 ---
 

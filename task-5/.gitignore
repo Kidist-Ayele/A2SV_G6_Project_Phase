@@ -1,0 +1,38 @@
+# dependencies
+/node_modules
+
+# production build
+/dist
+
+# Vite cache
+/.vite
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Optional environment variables
+.env
+.env.*.local
+
+# TypeScript build artifacts
+*.tsbuildinfo
+
+# IDE/editor folders
+.vscode
+.idea
+
+# local coverage files
+coverage/
+
+# parcel cache (just in case)
+/.cache
+
+# Mac system files
+*.DS_Store

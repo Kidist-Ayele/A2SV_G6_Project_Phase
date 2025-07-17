@@ -3,7 +3,7 @@
 A modern **Contact Form** built with **React**, **TypeScript**, **HTML**, and **CSS** using **Vite**. This form includes validation using `react-hook-form` and is styled for a clean, responsive user experience.
 
 ### 🌟 Features:
-- 📩 Submit a message with username, email, and content
+- 📩 Submit a message with name, email, and content
 - ✅ Input validation (required fields, max length, email format, custom rules)
 - ⚠️ Error messages with clear UI feedback
 - 🔍 Developer mode integration using `@hookform/devtools`

@@ -23,26 +23,26 @@ export const ContactForm = () => {
         <h1>Contact Form</h1>
         <form onSubmit={handleSubmit(onSubmit)} noValidate>
             <div className = "form-control">
-            <label htmlFor="username">User-name:</label>
+            <label htmlFor="username">Name:</label>
             <input 
                 type="text" 
                 id="username" 
-                placeholder='Enter username'
+                placeholder='Enter your name'
                 
                 {...register("username", {
 
                     required: {
                         value: true,
-                        message: 'Username is required.',
+                        message: 'Name is required.',
                     },
 
                      minLength: {
                         value: 3,
-                        message: 'Username must be at least 3 characters long.',
+                        message: 'Name must be at least 3 characters long.',
                     },
                     maxLength: {
                         value: 20,
-                        message: 'Username cannot exceed 20 characters.',
+                        message: 'Name cannot exceed 20 characters.',
                     }
 
                 })} />

@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 💼 Job Listing Application
 
-## Getting Started
+This project is a Job Listing Dashboard built using **Next.js** and **Tailwind CSS**. It displays detailed job information in a clean and responsive layout, closely modeled after a provided UI reference.
 
-First, run the development server:
+## 🛠️ Features
+
+- React-based job detail card with structured layout
+- Clean, responsive UI built with Tailwind CSS
+- Job data rendered from dummy JSON
+- Avatar image integration
+- Job Description, Responsibilities, and Candidate Requirements sections
+
+
+## 🔧 Technologies
+
+- [Next.js](https://nextjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- TypeScript
+
+## 📷 Preview
+- Dashboard
+  
+  <img width="1244" height="1595" alt="screencapture-localhost-3000-2025-07-23-13_55_59" src="https://github.com/user-attachments/assets/0be69ef9-b3e0-44e3-84b5-a65248cfb492" />
+
+- Job Details
+    
+  <img width="1218" height="1062" alt="screencapture-localhost-3000-job-0-2025-07-23-13_56_37" src="https://github.com/user-attachments/assets/67885474-1982-4b2f-97eb-a68566aca1b4" />
+
+
+## 🚀 Getting Started
+
+1. **Clone the repo:**
+
+   ```bash
+   git clone https://github.com/Kidist-Ayele/A2SV_G6_Project_Phase.git
+   cd task-6
+   ```
+2. **Install dependencies:**
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3. **Run the development server:**
+```bash
+npm run dev
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Open http:`//localhost:3000` to view the app.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.

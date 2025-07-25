@@ -52,7 +52,7 @@ export function JobCard({ job, onClick }: JobCardProps) {
 
         <div className="flex-1">
           {/* Job title */}
-          <h3 className="text-lg font-semibold text-gray-900 mb-1 capitalize">{job.title}</h3>
+          <h2 className="text-lg font-semibold text-gray-700 mb-1 capitalize">{job.title}</h2>
 
           {/* Company and location */}
           <div className="flex items-center gap-2 text-gray-400 text-sm mb-3">

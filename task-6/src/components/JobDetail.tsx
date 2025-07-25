@@ -14,13 +14,13 @@ export function JobDetail({ job }: JobDetailProps) {
         <div className="flex-1 p-8 pr-4">
           {/* Description */}
           <div className="mb-8">
-            <h2 className="text-xl font-semibold text-gray-900 mb-4">Description</h2>
+            <h2 className="text-xl font-semibold text-gray-700 mb-4">Description</h2>
             <p className="text-gray-700 leading-relaxed mb-4">{job.description}</p>
           </div>
 
           {/* Responsibilities */}
           <div className="mb-8">
-            <h2 className="text-xl font-semibold text-gray-900 mb-4">Responsibilities</h2>
+            <h2 className="text-xl font-semibold text-gray-700 mb-4">Responsibilities</h2>
             <ul className="space-y-3">
               {job.responsibilities.map((responsibility, index) => (
                 <li key={index} className="flex items-start gap-3">
@@ -47,7 +47,7 @@ export function JobDetail({ job }: JobDetailProps) {
 
           {/* Ideal Candidate */}
           <div className="mb-8">
-            <h2 className="text-xl font-semibold text-gray-900 mb-4">Ideal Candidate we want</h2>
+            <h2 className="text-xl font-semibold text-gray-700 mb-4">Ideal Candidate we want</h2>
             <div className="space-y-4">
               <div className="flex items-start gap-3">
                 <div className="w-1 h-1 bg-black rounded-full mt-2 flex-shrink-0"></div>
@@ -84,7 +84,7 @@ export function JobDetail({ job }: JobDetailProps) {
 
           {/* When & Where */}
           <div className="mb-8">
-            <h2 className="text-xl font-semibold text-gray-900 mb-4">When & Where</h2>
+            <h2 className="text-xl font-semibold text-gray-700 mb-4">When & Where</h2>
             <div className="flex items-start gap-3">
               <div className="w-8 h-8 border-2 rounded-full flex items-center justify-center mt-0.5">
                 <MapPin className="w-3 h-3 text-blue-600" />
@@ -96,7 +96,7 @@ export function JobDetail({ job }: JobDetailProps) {
 
         {/* Right side - About Sidebar */}
         <div className="w-80 p-8 pl-4 ">
-          <h3 className="text-lg font-semibold text-gray-900 mb-6">About</h3>
+          <h3 className="text-lg font-semibold text-gray-700 mb-6">About</h3>
 
           <div className="space-y-4 mb-8">
             <div className="flex items-center gap-3">
@@ -105,7 +105,7 @@ export function JobDetail({ job }: JobDetailProps) {
               </div>
               <div>
                 <div className="text-sm text-gray-600">Posted On</div>
-                <div className="font-medium text-gray-900">{job.about.posted_on}</div>
+                <div className="font-medium text-gray-700">{job.about.posted_on}</div>
               </div>
             </div>
 
@@ -115,7 +115,7 @@ export function JobDetail({ job }: JobDetailProps) {
               </div>
               <div>
                 <div className="text-sm text-gray-600">Deadline</div>
-                <div className="font-medium text-gray-900">{job.about.deadline}</div>
+                <div className="font-medium text-gray-700">{job.about.deadline}</div>
               </div>
             </div>
 
@@ -125,7 +125,7 @@ export function JobDetail({ job }: JobDetailProps) {
               </div>
               <div>
                 <div className="text-sm text-gray-600">Location</div>
-                <div className="font-medium text-gray-900">{job.about.location}</div>
+                <div className="font-medium text-gray-700">{job.about.location}</div>
               </div>
             </div>
 
@@ -135,7 +135,7 @@ export function JobDetail({ job }: JobDetailProps) {
               </div>
               <div>
                 <div className="text-sm text-gray-600">Start Date</div>
-                <div className="font-medium text-gray-900">{job.about.start_date}</div>
+                <div className="font-medium text-gray-700">{job.about.start_date}</div>
               </div>
             </div>
 
@@ -145,13 +145,13 @@ export function JobDetail({ job }: JobDetailProps) {
               </div>
               <div>
                 <div className="text-sm text-gray-600">End Date</div>
-                <div className="font-medium text-gray-900">{job.about.end_date}</div>
+                <div className="font-medium text-gray-700">{job.about.end_date}</div>
               </div>
             </div>
           </div>
           <hr className="my-6 border-2 border-gray-700" />
           <div className="mb-6">
-            <h4 className="font-semibold text-gray-900 mb-3">Categories</h4>
+            <h4 className="font-semibold text-gray-700 mb-3">Categories</h4>
             <div className="flex flex-wrap gap-2">
               {job.about.categories.map((category, index) => (
                 <Badge
@@ -170,7 +170,7 @@ export function JobDetail({ job }: JobDetailProps) {
           </div>
           <hr className="my-6 border-2 border-gray-700" />
           <div>
-            <h4 className="font-semibold text-gray-900 mb-3">Required Skills</h4>
+            <h4 className="font-semibold text-gray-700 mb-3">Required Skills</h4>
             <div className="flex flex-wrap gap-2">
               {job.about.required_skills.map((skill, index) => (
                 <Badge key={index} variant="outline" className="text-blue-600 ">

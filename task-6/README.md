@@ -18,13 +18,16 @@ This project is a Job Listing Dashboard built using **Next.js** and **Tailwind C
 - TypeScript
 
 ## 📷 Preview
+
 - Dashboard
-  
-  <img width="1244" height="1595" alt="screencapture-localhost-3000-2025-07-23-13_55_59" src="https://github.com/user-attachments/assets/0be69ef9-b3e0-44e3-84b5-a65248cfb492" />
+
+  <img width="1300" height="1438" alt="screencapture-localhost-3000-2025-07-25-11_16_00" src="https://github.com/user-attachments/assets/6485ac8b-7b98-48cf-b68a-1e5658b31313" />
+
 
 - Job Details
+      
+  <img width="1269" height="957" alt="screencapture-localhost-3000-job-0-2025-07-25-11_16_28" src="https://github.com/user-attachments/assets/7734aefa-1cc7-4c51-b32c-b1443ce53b73" />
     
-  <img width="1218" height="1062" alt="screencapture-localhost-3000-job-0-2025-07-23-13_56_37" src="https://github.com/user-attachments/assets/67885474-1982-4b2f-97eb-a68566aca1b4" />
 
 
 ## 🚀 Getting Started

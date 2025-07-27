@@ -1,43 +1,52 @@
 # 💼 Job Listing Application
 
-This project is a Job Listing Dashboard built using **Next.js** and **Tailwind CSS**. It displays detailed job information in a clean and responsive layout, closely modeled after a provided UI reference.
+This project is a Job Listing Dashboard built using **Next.js**, **Redux Toolkit**, and **Tailwind CSS**. It displays job opportunities fetched from a live API with detailed job information in a clean and responsive layout.
 
 ## 🛠️ Features
 
-- React-based job detail card with structured layout
-- Clean, responsive UI built with Tailwind CSS
-- Job data rendered from dummy JSON
-- Avatar image integration
-- Job Description, Responsibilities, and Candidate Requirements sections
-
+- **Live API Integration** - Fetches real job data from Akil Backend API
+- **Redux State Management** - Centralized state management with Redux Toolkit
+- **Job Listings Dashboard** - Browse and sort job opportunities
+- **Detailed Job View** - Comprehensive job details with responsibilities and requirements
+- **Responsive Design** - Clean, mobile-friendly UI built with Tailwind CSS
+- **Loading States** - Smooth loading spinners and error handling
+- **Dynamic Routing** - Navigate between job listings and detailed views
+- **Search & Sort** - Sort jobs by relevance, date, and other criteria
 
 ## 🔧 Technologies
 
-- [Next.js](https://nextjs.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- TypeScript
+- [Next.js](https://nextjs.org/) - React framework for production
+- [Redux Toolkit](https://redux-toolkit.js.org/) - State management
+- [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
+- [TypeScript](https://www.typescriptlang.org/) - Type safety
+- [Lucide React](https://lucide.dev/) - Beautiful icons
+- [shadcn/ui](https://ui.shadcn.com/) - UI components
+
+## 🌐 API Integration
+
+The application integrates with the Akil Backend API:
+- **Base URL**: `https://akil-backend.onrender.com/`
+- **Get all opportunities**: `/opportunities/search`
+- **Get opportunity by ID**: `/opportunities/:id`
 
 ## 📷 Preview
 
-- Dashboard
+- **Dashboard**  
+  <img width="1223" height="2070" alt="screencapture-localhost-3000-2025-07-27-22_25_24" src="https://github.com/user-attachments/assets/a040a4ee-eb88-4430-989a-75592b789784" />
 
-  <img width="1300" height="1438" alt="screencapture-localhost-3000-2025-07-25-11_16_00" src="https://github.com/user-attachments/assets/6485ac8b-7b98-48cf-b68a-1e5658b31313" />
+- **Job Details**        
+  <img width="1264" height="807" alt="screencapture-localhost-3000-job-65509e9353a7667de6ef5a60-2025-07-27-22_27_52" src="https://github.com/user-attachments/assets/7a9f5946-ca18-4098-8386-efb58396675d" />
 
-
-- Job Details
-      
-  <img width="1269" height="957" alt="screencapture-localhost-3000-job-0-2025-07-25-11_16_28" src="https://github.com/user-attachments/assets/7734aefa-1cc7-4c51-b32c-b1443ce53b73" />
-    
-
+- **Error Page**    
+  <img width="1165" height="632" alt="image" src="https://github.com/user-attachments/assets/9368e755-4695-496f-bc68-a7ab97aa427b" />
 
 ## 🚀 Getting Started
 
-1. **Clone the repo:**
-
-   ```bash
-   git clone https://github.com/Kidist-Ayele/A2SV_G6_Project_Phase.git
-   cd task-6
-   ```
+1. **Clone the repo:**   
+   ```bash   
+   git clone https://github.com/Kidist-Ayele/A2SV_G6_Project_Phase.git   
+   cd task-7
+   
 2. **Install dependencies:**
 
 ```bash

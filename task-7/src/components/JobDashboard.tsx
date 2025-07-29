@@ -53,11 +53,11 @@ export function JobDashboard({ jobs }: JobDashboardProps) {
           <div className="p-6">
             <div className="flex items-center justify-between mb-4">
               <div>
-                <h1 className="text-2xl font-bold text-gray-900">Opportunities</h1>
-                <p className="text-gray-600 text-sm mt-1">Showing {sortedJobs.length} results</p>
+                <h1 className="text-2xl font-bold text-gray-700">Opportunities</h1>
+                <p className="text-gray-400 text-sm mt-1">Showing {sortedJobs.length} results</p>
               </div>
               <div className="flex items-center gap-2">
-                <span className="text-sm text-gray-600">Sort by:</span>
+                <span className="text-sm text-gray-400">Sort by:</span>
                 <Select value={sortBy} onValueChange={setSortBy}>
                   <SelectTrigger className="w-40 border-gray-300">
                     <SelectValue />

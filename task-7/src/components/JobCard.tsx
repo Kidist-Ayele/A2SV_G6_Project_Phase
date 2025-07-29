@@ -10,13 +10,13 @@ interface JobCardProps {
 }
 
 export function JobCard({ job, onClick }: JobCardProps) {
-  // Use the actual logo from API data, with fallback to placeholder
+  
 
-  const logoUrl = job.logoUrl || job.orgLogo || "/first.png?height=48&width=48"
+  const logoUrl = job.logoUrl || job.orgLogo || "/placeholder.png?height=48&width=48"
 
-  // Safe location access with fallbacks
+  
   const getLocationString = () => {
-    // Try multiple location sources with safe access
+   
     if (job.about?.location) {
       return job.about.location
     }
@@ -37,12 +37,12 @@ export function JobCard({ job, onClick }: JobCardProps) {
       <div className="flex items-start gap-4">
         {/* Company Logo from API data */}
         <img
-          src={logoUrl || "/placeholder.svg"}
+          src={logoUrl || "/placeholder.png?height=48&width=48"}
           alt={`${job.company || "Company"} logo`}
           className="w-12 h-12 rounded-full object-cover flex-shrink-0"
           onError={(e) => {
-            // Fallback if image fails to load
-            e.currentTarget.src = "/placeholder.svg?height=48&width=48"
+          
+            e.currentTarget.src = "/placeholder.png?height=48&width=48"
           }}
         />
 
@@ -63,9 +63,8 @@ export function JobCard({ job, onClick }: JobCardProps) {
           {/* Job description */}
           <p className="text-gray-700 mb-4 line-clamp-3">{job.description}</p>
 
-          {/* Job details - using actual data from API */}
+        
           <div className="flex flex-wrap gap-2 items-center">
-            {/* Job type from API */}
             {job.opType && (
               <>
                 <Badge className="bg-green-50 text-green-700 hover:bg-green-100 text-xs px-3 py-1 rounded-full">
@@ -81,8 +80,7 @@ export function JobCard({ job, onClick }: JobCardProps) {
                 {job.categories.slice(0, 2).map((category, index) => (
                   <Badge
                     key={index}
-                    className="text-yellow-600 border-yellow-300 hover:bg-yellow-100 text-xs px-3 py-1 rounded-full"
-                    variant="outline"
+                    className=" text-yellow-400 hover:bg-yellow-100 text-xs px-3 py-1 rounded-full" style={{ borderColor: "yellow"}}
                   >
                     {category}
                   </Badge>
@@ -98,7 +96,7 @@ export function JobCard({ job, onClick }: JobCardProps) {
                 <Badge
                   key={index}
                   variant="outline"
-                  className="text-purple-600 border-purple-300 text-xs px-3 py-1 rounded-full"
+                  className="text-purple-600 border-purple-300 text-xs px-5 py-1 rounded-full" style={{ borderColor: "purple" }}
                 >
                   {skill}
                 </Badge>

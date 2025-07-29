@@ -1,6 +1,6 @@
 # 💼 Job Listing Application
 
-This project is a Job Listing Dashboard built using **Next.js**, **Redux Toolkit**, and **Tailwind CSS**. It displays job opportunities fetched from a live API with detailed job information in a clean and responsive layout.
+This project is a Job Listing Dashboard built using **Next.js**, **Redux Toolkit**, and **Tailwind CSS**. It displays job opportunities fetched from a live API with detailed job information.
 
 ## 🛠️ Features
 
@@ -8,10 +8,9 @@ This project is a Job Listing Dashboard built using **Next.js**, **Redux Toolkit
 - **Redux State Management** - Centralized state management with Redux Toolkit
 - **Job Listings Dashboard** - Browse and sort job opportunities
 - **Detailed Job View** - Comprehensive job details with responsibilities and requirements
-- **Responsive Design** - Clean, mobile-friendly UI built with Tailwind CSS
 - **Loading States** - Smooth loading spinners and error handling
 - **Dynamic Routing** - Navigate between job listings and detailed views
-- **Search & Sort** - Sort jobs by relevance, date, and other criteria
+- **Sorting** - Sort jobs by relevance, date, and other criteria
 
 ## 🔧 Technologies
 
@@ -32,20 +31,24 @@ The application integrates with the Akil Backend API:
 ## 📷 Preview
 
 - **Dashboard**  
-  <img width="1223" height="2070" alt="screencapture-localhost-3000-2025-07-27-22_25_24" src="https://github.com/user-attachments/assets/a040a4ee-eb88-4430-989a-75592b789784" />
+  <img width="1279" height="1943" alt="screencapture-localhost-3001-2025-07-29-17_19_27" src="https://github.com/user-attachments/assets/48c4225e-c8ec-4c77-932e-d570c118e578" />
+
 
 - **Job Details**        
-  <img width="1264" height="807" alt="screencapture-localhost-3000-job-65509e9353a7667de6ef5a60-2025-07-27-22_27_52" src="https://github.com/user-attachments/assets/7a9f5946-ca18-4098-8386-efb58396675d" />
-
+  <img width="1284" height="808" alt="screencapture-localhost-3001-job-65509e9353a7667de6ef5a60-2025-07-29-17_22_54" src="https://github.com/user-attachments/assets/7b2e37b8-65ff-4e34-bdb3-a2e768e1c718" />
+  
 - **Error Page**    
   <img width="1165" height="632" alt="image" src="https://github.com/user-attachments/assets/9368e755-4695-496f-bc68-a7ab97aa427b" />
+
+- **Loading Page**
+    <img width="1184" height="632" alt="image" src="https://github.com/user-attachments/assets/8d094198-ef7d-4c4c-94f7-e2ac5be433c1" />
 
 ## 🚀 Getting Started
 
 1. **Clone the repo:**   
    ```bash   
    git clone https://github.com/Kidist-Ayele/A2SV_G6_Project_Phase.git   
-   cd task-7
+   cd A2SV_G6_Project_Phase/task-7
    
 2. **Install dependencies:**
 

@@ -62,7 +62,7 @@ _Mobile-optimized interface with touch-friendly interactions_
 
 ## 🛠️ Technology Stack
 
-- **Next.js 14** - React framework with App Router
+- **Next.js** - React framework with App Router
 - **TypeScript** - Type-safe development
 - **Tailwind CSS** - Utility-first styling
 - **Redux Toolkit** - State management
@@ -75,7 +75,7 @@ _Mobile-optimized interface with touch-friendly interactions_
 1. **Clone the repository**
 
    ```bash
-   git clone [<repository-url>](https://github.com/Kidist-Ayele/A2SV_G6_Project_Phase.git)
+   git clone https://github.com/Kidist-Ayele/A2SV_G6_Project_Phase.git
    cd A2SV_G6_Project_Phase/final-task
    ```
 

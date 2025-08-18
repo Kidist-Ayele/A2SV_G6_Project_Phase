@@ -24,30 +24,31 @@ A modern, responsive job listing application built with Next.js, featuring bookm
 
 ### Homepage - Job Listings
 
-![Homepage - Job Listings](screenshots/homepage-job-listings.png)
+<img width="1306" height="1977" alt="screencapture-localhost-3000-2025-08-18-12_15_06(1)" src="https://github.com/user-attachments/assets/7749a434-ece5-4de3-a9ce-d47612515578" />
+
+
 _Main dashboard showing job cards with bookmark buttons and responsive design_
 
 ### Job Detail Page
 
-![Job Detail Page](screenshots/job-detail-page.png)
+<img width="1280" height="845" alt="image" src="https://github.com/user-attachments/assets/3e52c49f-cb0f-4a64-bc2b-cd6c4957ecf9" />
+
+
 _Detailed view of a job posting with bookmark functionality_
-
-### Authentication Pages
-
-![Sign In Page](screenshots/signin-page.png)
-_User authentication with responsive design_
-
-![Sign Up Page](screenshots/signup-page.png)
-_User registration form with role selection_
 
 ### Bookmarks View
 
-![Bookmarks View](screenshots/bookmarks-view.png)
+<img width="973" height="1280" alt="image" src="https://github.com/user-attachments/assets/f4975728-6c31-4856-bdd8-9c6572e9785c" />
+
 _Filtered view showing only bookmarked job opportunities_
 
 ### Mobile Responsive Design
 
-![Mobile View](screenshots/mobile-responsive.png)
+<img width="407" height="562" alt="image" src="https://github.com/user-attachments/assets/aff17a18-ce95-4d96-b32d-50879c7a72d9" />
+
+<img width="408" height="560" alt="image" src="https://github.com/user-attachments/assets/5816e162-8aa1-43ee-831d-c7942c30a0ec" />
+
+
 _Mobile-optimized interface with touch-friendly interactions_
 
 ## 🛠️ Technology Stack
@@ -65,7 +66,7 @@ _Mobile-optimized interface with touch-friendly interactions_
 1. **Clone the repository**
 
    ```bash
-   git clone <repository-url>
+   git clone [<repository-url>](https://github.com/Kidist-Ayele/A2SV_G6_Project_Phase.git)
    cd A2SV_G6_Project_Phase/final-task
    ```
 
@@ -107,9 +108,6 @@ npm test
 Run Cypress E2E tests:
 
 ```bash
-# Start the development server first
 npm run dev
-
-# In another terminal, run Cypress
 npm run cypress:run
 ```

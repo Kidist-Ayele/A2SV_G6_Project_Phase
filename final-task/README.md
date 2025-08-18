@@ -51,6 +51,15 @@ _Filtered view showing only bookmarked job opportunities_
 
 _Mobile-optimized interface with touch-friendly interactions_
 
+### Test results 
+
+#### - Cypress Result 
+
+<img width="1280" height="602" alt="image" src="https://github.com/user-attachments/assets/df334bcc-bb51-456b-9f59-62a6a440fe3a" />
+
+#### - Jest Result 
+<img width="1227" height="655" alt="image" src="https://github.com/user-attachments/assets/56ca0769-046d-4e60-9921-4d2a1e777f42" />
+
 ## 🛠️ Technology Stack
 
 - **Next.js 14** - React framework with App Router
